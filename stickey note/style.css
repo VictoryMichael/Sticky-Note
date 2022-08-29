@@ -1,0 +1,57 @@
+*{
+margin: 0;
+background: wheat;
+box-sizing: border-box;
+}
+
+#app{
+display: grid;
+grid-template-columns: repeat(auto-fill, 300px);
+padding: 30px;
+gap: 24px;
+justify-content: center;
+
+}
+
+.note{
+height: 300px;
+box-sizing: border-box;
+padding: 16px;
+border: none;
+border-radius: 10px;
+resize: none;
+box-shadow: 10px 10px 20px -7px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 10px 20px -7px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 20px -7px rgba(0,0,0,0.75);
+font-family: sans-serif;
+font-size: 17px;
+background: white;
+}
+
+.note:hover{
+cursor: pointer;
+
+box-shadow: 10px 10px 58px -21px rgba(0,0,0,0.97);
+-webkit-box-shadow: 10px 10px 58px -21px rgba(0,0,0,0.97);
+-moz-box-shadow: 10px 10px 58px -21px rgba(0,0,0,0.97);
+}
+
+
+
+.add-note{
+height: 300px;
+width: 300px;
+outline: none;
+border: none;
+border-radius: 10px;
+background: rgba(0,0,0,0.4);
+cursor: pointer;
+font-size: 100px;
+transition: 0.3s ease;
+}
+
+.add-note:hover{
+    background: rgba(0,0,0,0.2);
+
+}
+
